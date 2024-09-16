@@ -2,6 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "jsr:@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@0.1.48",
       "jsr:@std/cli": "jsr:@std/cli@1.0.5",
       "npm:@puppeteer/browsers@1.6.0": "npm:@puppeteer/browsers@1.6.0",
       "npm:@types/node": "npm:@types/node@18.16.19",
@@ -9,6 +10,9 @@
       "npm:puppeteer@21.0.3": "npm:puppeteer@21.0.3"
     },
     "jsr": {
+      "@b-fuze/deno-dom@0.1.48": {
+        "integrity": "bf5b591aef2e9e9c59adfcbb93a9ecd45bab5b7c8263625beafa5c8f1662e7da"
+      },
       "@std/cli@1.0.5": {
         "integrity": "c93cce26ffd26f617c15a12874e1bfeabc90b1eee86017c9639093734c2bf587"
       }
