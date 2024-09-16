@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "build": "PUPPETEER_PRODUCT=chrome deno compile --allow-env --allow-run --unstable --allow-read --allow-net --allow-write main.ts --output webpageFetcher"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
