@@ -2,5 +2,22 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "timezone": "Asia/Kolkata",
+  "schedule": [
+    "after 12am and before 11pm every weekday"
+  ],
+  "automergeType": "branch",
+  "prConcurrentLimit": 2,
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
+    }
   ]
 }
